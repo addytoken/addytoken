@@ -44,7 +44,7 @@ export default function Home() {
                                 >
                                     <Image src={"/twit.png"} alt="" height={140} width={140} />
                                 </motion.div>
-                                <h3 className="text-2xl text-blue-300">Loading Tweet...</h3>
+                                <h3 className="text-2xl text-blue-300">Loading...</h3>
                             </div>
                             <Tweet
                                 tweetId="1591227781534613505"
