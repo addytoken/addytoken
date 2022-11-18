@@ -12,7 +12,7 @@ export default function Header() {
             <div className="hidden md:flex flex-row  tracking-wider text-slate-200 mr-10">
                 <Link legacyBehavior href="/">
                     <a className="mr-4 p-4 hover:border-b-2 hover:border-b-fuchsia-600 font-bold">
-                        SOCIAL
+                        COMMUNITY
                     </a>
                 </Link>
                 <Link legacyBehavior href="/">
@@ -20,7 +20,7 @@ export default function Header() {
                         CONTRACT
                     </a>
                 </Link>
-                <Link legacyBehavior href="/">
+                <Link legacyBehavior href="#tok">
                     <a className="mr-4 p-4 hover:border-b-2 hover:border-b-fuchsia-600 font-bold">
                         TOKENOMICS
                     </a>

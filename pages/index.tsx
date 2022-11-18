@@ -124,7 +124,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="w-full">
+            <div id="tok" className="w-full">
                 <div className="container mx-auto py-20">
                     <h1 className=" text-4xl lg:text-5xl text-pink-600 text-center tracking-widest">
                         TOKENOMICS <span className="hidden md:inline-block">&nbsp;</span>
@@ -225,26 +225,36 @@ export default function Home() {
                 <Tweet tweetId="1591333446995283969" options={{ theme: "dark" }} />
             </div>
 
-            <footer className="py-20 flex items-center justify-center gap-5 lg:gap-10">
-                <a href="/" target="_blank" rel="noopener noreferrer">
-                    <span>
-                        <Image src="/tg-icon.svg" alt="Vercel Logo" width={60} height={60} />
-                    </span>
-                </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
-                    <span>
-                        <Image src="/logo-smooth.png" alt="Vercel Logo" width={100} height={100} />
-                    </span>
-                </a>
-                <a
-                    href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <span>
-                        <Image src="/tw-icon.svg" alt="Vercel Logo" width={60} height={60} />
-                    </span>
-                </a>
+            <footer className="py-20">
+                <div className="flex items-center justify-center gap-5 lg:gap-10 mb-8">
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                        <span>
+                            <Image src="/tg-icon.svg" alt="Vercel Logo" width={60} height={60} />
+                        </span>
+                    </a>
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                        <span>
+                            <Image
+                                src="/logo-smooth.png"
+                                alt="Vercel Logo"
+                                width={100}
+                                height={100}
+                            />
+                        </span>
+                    </a>
+                    <a
+                        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span>
+                            <Image src="/tw-icon.svg" alt="Vercel Logo" width={60} height={60} />
+                        </span>
+                    </a>
+                </div>
+                <h4 className=" text-lg text-zinc-300 text-center">
+                    COPYRIGHT © 2022 ADDERALL TOKEN. ALL RIGHTS RESERVED
+                </h4>
             </footer>
         </div>
     )
