@@ -227,7 +227,11 @@ export default function Home() {
 
             <footer className="py-20">
                 <div className="flex items-center justify-center gap-5 lg:gap-10 mb-8">
-                    <a href="/" target="_blank" rel="noopener noreferrer">
+                    <a
+                        href="https://t.me/AdderallOfficialPortal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <span>
                             <Image src="/tg-icon.svg" alt="Vercel Logo" width={60} height={60} />
                         </span>
@@ -243,7 +247,7 @@ export default function Home() {
                         </span>
                     </a>
                     <a
-                        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                        href="https://twitter.com/AdderallToken?t=070zxpFKzCVR4eTVWDAuVg&s=09"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
