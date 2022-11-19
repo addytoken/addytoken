@@ -57,8 +57,18 @@ export default function Home() {
                             style={{ marginTop: tweetLoaded ? 32 : 200 }}
                             className="w-full flex flex-col md:flex-row justify-center items-center md:justify-around space-y-8 min-[765px]:space-y-0 px-14"
                         >
-                            <ButtonLink url={"/"} text={"BUY $ADDY"} />
-                            <ButtonLink url={"/"} text={"CONTRACT"} />
+                            <ButtonLink
+                                url={
+                                    "https://app.uniswap.org/#/swap?outputCurrency=0xc8baaa3063bc20cc237de3903cf57e2110b59ad9"
+                                }
+                                text={"BUY $ADDY"}
+                            />
+                            <ButtonLink
+                                url={
+                                    "https://etherscan.io/address/0xc8baaa3063bc20cc237de3903cf57e2110b59ad9"
+                                }
+                                text={"CONTRACT"}
+                            />
                         </div>
                     </div>
                 </div>
